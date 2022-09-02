@@ -1,16 +1,19 @@
 <mjml>
+<mj-head>
+    <mj-font name="ubuntu" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
+</mj-head>
     <mj-body>
         <mj-section>
-            <mj-column width="100%">
-                <mj-text align="center" font-size="32px" font-family="roboto">
+            <mj-column border="solid #F9A814">
+                <mj-text align="center" font-size="32px" font-family='Ubuntu'>
                     Hello-World
                 </mj-text>
             </mj-column>
         </mj-section>
         <mj-section>
             <mj-column width="100%">
-                <mj-text align="center" font-size="42px" font-family="roboto">
-                    This could be your company's marketing email!
+                <mj-text align="center" font-size="36px" font-family='Ubuntu'>
+                    This could be your marketing email!
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -18,10 +21,10 @@
             <mj-column width="100%">
                 <mj-image border-radius="50%" width="200px" src="https://images.unsplash.com/photo-1653041286349-1f3d7cc0b28b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="dog headshot" />
                 <<mj-text align="center">
-                    Your Name
+                    Igor, the Dog
                 </mj-text>
-                <mj-text align="center" color="#444444">
-                    CEO
+                <mj-text align="center" color="#B6B6B6">
+                    CEO, Doggy Inc.
                 </mj-text>
                 <mj-button background-color="orange" color="#000">
                     Link to your site
@@ -30,7 +33,7 @@
         </mj-section>
         <mj-section background-color="#f5f5f5">
             <mj-column>
-                <mj-text font-size="20px" font-family="roboto">
+                <mj-text font-size="20px" font-family="Ubuntu">
                     About
                 </mj-text>
                 <mj-text>
@@ -38,7 +41,7 @@
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-text font-size="20px" font-family="roboto">
+                <mj-text font-size="20px" font-family="Ubuntu">
                     Contact
                 </mj-text>
                 <mj-text>
@@ -49,9 +52,20 @@
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-text font-size="20px" font-family="roboto">
+                <mj-text font-size="20px" font-family="Ubuntu">
                     Links
                 </mj-text>
+                <mj-social align="left" font-size="15px" icon-size="25px" mode="vertical">
+                    <mj-social-element name="facebook" href="#">
+                        Facebook
+                    </mj-social-element>
+                    <mj-social-element name="google" href="#">
+                        Google
+                    </mj-social-element>
+                    <mj-social-element name="twitter" href="#">
+                        Twitter
+                    </mj-social-element>
+                </mj-social>
             </mj-column>
         </mj-section>
     </mj-body>
